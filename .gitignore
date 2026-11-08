@@ -1,0 +1,24 @@
+# Ignorar tudo por padrão
+*
+
+# Permitir pastas para chegar aos arquivos autorizados
+!*/
+
+# Permitir arquivos Python
+!*.py
+
+# Permitir arquivos de configuração e documentação
+!.gitignore
+!.env.example
+!requirements.txt
+!/README.md
+!/README.en.md
+
+# Permitir a pasta moldes
+!Moldes/
+
+# Ignorar tudo dentro da pasta moldes
+Moldes/*
+
+# Permitir somente o molde
+!Moldes/Molde.xlsx
